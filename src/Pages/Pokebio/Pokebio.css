@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+.poke-total {
+    height: 100vh;
+}
+
+.Pokebio-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding: 2vh;
+}
+
+.white-pokeball {
+    position: absolute;
+    opacity: 0.2;
+    top: 10px;
+    right: 15px;
+}
+
+.arrow-name {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-left {
+    width:30px;
+    fill: currentColor white;
+}
+
+h1.name-pokemon {
+    font-size: 25px;
+    color: white;
+}
+
+.id {
+    display: flex;
+    align-items: center;
+    border:none;
+    font-weight:700;
+    font-size: 16px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pokemons-aspects {
+    height: 80%;
+    width: 99%;
+    background-color: white;
+}
+
+.poke-foto {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+    height: 21vh;
+    z-index: 2;
+    object-fit: contain;
+}
+
+.arrowButton2 {
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: bolder;
+    font-size: 18px;
+    background: none;
+}
+
+.poke-stats {
+    width: 97%;
+    margin-top: -21%;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 0.8%;
+    padding: 5%;
+    font-family: 'Poppins', sans-serif;
+    height: 72vh;
+    position: absolute;
+}
+
+.poke-physics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.poke-description {
+    width: 100%;
+    font-size: small;
+    margin-top: 5%
+}
+
+.about {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.base-stats {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.poke-type-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 6.5vh;
+}
+
+.poke-type {
+    padding: 1% 3%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    color: white;
+}
+
+.grey-line {
+    width: 2px;
+    height: 75px;
+    background-color: grey;
+}
+
+.physics-container {
+    width: 30%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.img-value {
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.weight-pic {
+    width: 20px;
+}
+
+.height-pic {
+    width: 12px;
+}
+
+h3 {
+    font-weight: lighter;
+    text-align: center;
+    font-size:small
+}
+
+h4 {
+    font-size: small;
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(167, 166, 166);
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+}
+
+.stats-text {
+    display: flex;
+}

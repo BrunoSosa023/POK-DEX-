@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+  max-width: 390px;
+  max-height: 844px;
+}
